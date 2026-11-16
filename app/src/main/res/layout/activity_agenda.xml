@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lavanda_casi_blanca"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agenda por Veterinario"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/ciruela_oscura" />
+
+    <!-- SELECTOR DE VETERINARIO -->
+    <Spinner
+        android:id="@+id/spinnerVetsAgenda"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/btn_dropdown" />
+
+    <!-- BOTÓN DE FILTRO -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnFiltrarFechaAgenda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Filtrar por Fecha"
+        style="@style/Widget.MaterialComponents.Button.TextButton" />
+
+    <ProgressBar
+        android:id="@+id/progressBarAgenda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_marginTop="16dp"
+        android:indeterminateTint="@color/violeta_medio" />
+
+    <TextView
+        android:id="@+id/tvEstadoVacioAgenda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No hay citas agendadas para este veterinario."
+        android:textColor="@color/ciruela_oscura"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="32dp"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvAgenda"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        android:clipToPadding="false" />
+
+</LinearLayout>

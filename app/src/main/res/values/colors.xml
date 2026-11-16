@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rosa_pastel">#FBD1E6</color>
+    <color name="lila_pastel">#DDC1FB</color>
+    <color name="violeta_medio">#8C4CB1</color>
+    <color name="violeta_intenso">#7442AC</color>
+    <color name="lavanda_seleccion">#E6CFF5</color>
+    <color name="violeta_oscuro">#522779</color>
+    <color name="ciruela">#693A89</color>
+    <color name="lavanda_suave">#F6F1F8</color>
+    <color name="rosa_suave">#FBEEF4</color>
+    <color name="lavanda_casi_blanca">#FAF7FB</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="ciruela_oscura">#292334</color>
+    <color name="gris_violaceo">#655D70</color>
+    <!-- Colores para estados de citas -->
+    <color name="estado_pendiente">#E8F5E9</color> <!-- Verde muy pálido (o #F0F4C3 para un tono más suave) -->
+    <color name="estado_reprogramada">#FFF8E1</color> <!-- Amarillo miel muy claro -->
+    <color name="estado_cancelada">#FFEBEE</color> <!-- Rosa/rojo muy pálido -->
+
+    <color name="texto_pendiente">#2E7D32</color> <!-- Verde oscuro -->
+    <color name="texto_reprogramada">#F57F17</color> <!-- Ámbar oscuro -->
+    <color name="texto_cancelada">#C62828</color> <!-- Rojo oscuro -->
+</resources>

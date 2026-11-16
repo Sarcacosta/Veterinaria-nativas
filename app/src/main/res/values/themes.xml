@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Usamos MaterialComponents para que los MaterialButton funcionen -->
+    <style name="Theme.VeterinariaAPP" parent="Theme.MaterialComponents.Light">
+        <!-- Tus colores personalizados -->
+        <item name="colorPrimary">@color/violeta_medio</item>
+        <item name="colorPrimaryVariant">@color/violeta_intenso</item>
+        <item name="colorOnPrimary">@color/blanco</item>
+        <item name="colorSecondary">@color/lila_pastel</item>
+        <item name="colorSecondaryVariant">@color/rosa_pastel</item>
+        <item name="colorOnSecondary">@color/ciruela_oscura</item>
+
+
+        <!-- Colores de fondo -->
+        <item name="android:windowBackground">@color/lavanda_casi_blanca</item>
+        <item name="android:statusBarColor">@color/lavanda_casi_blanca</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+</resources>
