@@ -1,0 +1,2 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/sheet" android:padding="18dp" android:layout_marginTop="14dp"><TextView android:id="@+id/pet_name" style="@style/Title" android:textSize="20sp"/>
+<TextView android:id="@+id/pet_details" style="@style/Body"/></LinearLayout>

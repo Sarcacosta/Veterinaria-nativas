@@ -1,0 +1,14 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:background="@color/page">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+        <Button android:id="@+id/back" style="@style/Link" android:text="‹ Volver"/>
+        <TextView style="@style/Title" android:text="Mi perfil" />
+        <TextView style="@style/Body" android:text="Consulta tu cuenta y actualiza tus datos de contacto." />
+        <Button android:id="@+id/reload" style="@style/Secondary" android:text="Volver a cargar"/><LinearLayout android:id="@+id/loading" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:visibility="gone" android:padding="8dp">
+<ProgressBar android:id="@+id/progress" style="?android:attr/progressBarStyleSmall" android:layout_width="24dp" android:layout_height="24dp"/>
+<TextView android:id="@+id/loading_text" style="@style/Body" android:layout_width="0dp" android:layout_weight="1" android:layout_marginStart="10dp" android:text="Conectando con la clínica…"/>
+</LinearLayout>
+<TextView android:id="@+id/message" style="@style/Body" android:background="@drawable/notice" android:padding="13dp" android:visibility="gone" android:accessibilityLiveRegion="polite" android:layout_marginBottom="8dp"/><LinearLayout android:id="@+id/form" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:visibility="gone"><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/sheet" android:padding="18dp" android:layout_marginTop="14dp"><TextView android:id="@+id/account" style="@style/Title" android:textSize="20sp"/><TextView style="@style/Label" android:layout_marginTop="12dp" android:labelFor="@+id/name" android:text="Nombre completo"/>
+<EditText android:id="@id/name" style="@style/Field" android:inputType="textPersonName" android:maxLength="100"/><TextView style="@style/Label" android:layout_marginTop="12dp" android:labelFor="@+id/email" android:text="Correo electrónico"/>
+<EditText android:id="@id/email" style="@style/Field" android:inputType="textEmailAddress" android:maxLength="254"/><Button android:id="@+id/save" style="@style/Action" android:text="Guardar cambios"/></LinearLayout></LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<resources>
+    <string-array name="registration_roles">
+        <item>Propietario</item>
+        <item>Veterinario</item>
+    </string-array>
+</resources>

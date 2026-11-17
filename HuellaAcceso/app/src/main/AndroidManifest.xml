@@ -1,0 +1,23 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application android:name=".HuellaApp" android:label="Huella" android:allowBackup="false" android:theme="@style/HuellaTheme">
+        <activity android:name=".PropietariosActivity" android:exported="false" />
+        <activity android:name=".HorariosActivity" android:exported="false" />
+        <activity android:name=".AgendaActivity" android:exported="false" />
+        <activity android:name=".MisCitasActivity" android:exported="false" />
+        <activity android:name=".SolicitarCitaActivity" android:exported="false" />
+        <activity android:name=".DetalleCitaActivity" android:exported="false" />
+        <activity android:name=".VeterinariosActivity" android:exported="false" />
+        <activity android:name=".HomeActivity" android:exported="false" />
+        <activity android:name=".RegistroActivity" android:exported="false" />
+        <activity android:name=".MascotasActivity" android:exported="false" />
+        <activity android:name=".RegistrarMascotaActivity" android:exported="false" />
+        <activity android:name=".PerfilActivity" android:exported="false" />
+        <activity android:name=".LoginActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

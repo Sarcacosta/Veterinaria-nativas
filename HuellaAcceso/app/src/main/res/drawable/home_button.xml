@@ -1,0 +1,3 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="#267442AC">
+    <item android:drawable="@drawable/home_tile"/>
+</ripple>

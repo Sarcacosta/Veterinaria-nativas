@@ -1,0 +1,12 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:background="@color/page">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+        <Button android:id="@+id/back" style="@style/Link" android:text="‹ Volver"/>
+        <TextView style="@style/Title" android:text="Mascotas" />
+        <TextView style="@style/Body" android:text="Consulta los pacientes de la clínica disponibles para tu cuenta." />
+        <Button android:id="@+id/add_pet" style="@style/Action" android:text="Registrar mascota"/><Button android:id="@+id/reload" style="@style/Secondary" android:text="Actualizar"/><LinearLayout android:id="@+id/loading" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:visibility="gone" android:padding="8dp">
+<ProgressBar android:id="@+id/progress" style="?android:attr/progressBarStyleSmall" android:layout_width="24dp" android:layout_height="24dp"/>
+<TextView android:id="@+id/loading_text" style="@style/Body" android:layout_width="0dp" android:layout_weight="1" android:layout_marginStart="10dp" android:text="Conectando con la clínica…"/>
+</LinearLayout>
+<TextView android:id="@+id/message" style="@style/Body" android:background="@drawable/notice" android:padding="13dp" android:visibility="gone" android:accessibilityLiveRegion="polite" android:layout_marginBottom="8dp"/><LinearLayout android:id="@+id/pet_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"/>
+    </LinearLayout>
+</ScrollView>
